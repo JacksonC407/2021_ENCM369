@@ -1,2 +1,3 @@
 Jackson,Carnegie,JacksonC407,jackson.carnegie@ucalgary.ca,2021_ENCM369
 Miki,Rowbottom,mikirowbottom,miki.rowbottom@ucalgary.ca,2021_ENCM369
+Srishti,Mathur,Srishti-Mathur,srishti.mathur@ucalgary.ca,2021_ENCM369
