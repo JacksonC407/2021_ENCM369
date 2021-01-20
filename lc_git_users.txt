@@ -4,3 +4,4 @@ Srishti,Mathur,Srishti-Mathur,srishti.mathur@ucalgary.ca,2021_ENCM369
 Vyshnavi,Devarakonda,vysh-devar,venkatasrivyshnavi.d@ucalgary.ca,2021_ENCM369
 Gustavo,Da_Costa,gustavo.dacostagomez@ucalgary.ca,gustavodacosta,2021_ENCM369
 Steven,Poon,steven.poon@ucalgary.ca,s-poon,2021_ENCM369
+Eunbi,Park,eunbi.park@ucalgary.ca,eunbiyah,2021_ENCM369
