@@ -69,7 +69,8 @@ Promises:
 */
 void ClockSetup(void)
 {
- 
+
+    
   
 } /* end ClockSetup */
 
@@ -88,11 +89,11 @@ Promises:
 */
 void GpioSetup(void)
 {
-    PORTA=0x00;
+    RA7=1;
+    
     TRISA=0;
     ANSELA=0;
     
-  
   
 } /* end GpioSetup() */
 

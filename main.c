@@ -51,9 +51,7 @@ void main(void)
   /* Super loop */  
   while(1)
   {
-      
-      
-      /* Drivers */
+    /* Drivers */
        
     /* Applications */
     UserAppRun();

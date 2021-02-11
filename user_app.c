@@ -24,7 +24,7 @@ PROTECTED FUNCTIONS
 **********************************************************************************************************************/
 
 #include "configuration.h"
-#define _XTAL_FREQ (64000000)
+
 /***********************************************************************************************************************
 Global variable definitions with scope across entire project.
 All Global variable names shall start with "G_<type>UserApp1"
@@ -73,9 +73,10 @@ Promises:
 - NONE
 
 */
+#define _XTAL_FREQ 64000000
 void UserAppInitialize(void)
 {
-
+    
 
 } /* end UserAppInitialize() */
 
@@ -95,12 +96,61 @@ Promises:
 void UserAppRun(void)
 {
     
-    RA0=1;
-  __delay_ms(250);
-  RA0=0;
-  __delay_ms(250);
+u32 u32counter;
+    for( u32counter = 0x00 ; u32counter <= 0x40 ; u32counter+=0x01) // counts from 0-63 counting by 1
+    {
+          if((0x01 & u32counter) != 0x00) // sets RA0 to on if the counter and 0x01 are not equal to 0
+        {
+            RA0=0x01;
+        }
+        else
+        {
+            RA0=0x00;
+        }
+        if((0x02 & u32counter) != 0x00)
+        {
+            RA1=0x01;
+        }
+        else
+        {
+            RA1=0x00;
+        }
+         if((0x04 & u32counter) != 0x00)
+        {
+            RA2=0x01;
+        }
+        else
+        {
+            RA2=0x00;
+        }
+         if((0x08 & u32counter) != 0x00)
+        {
+            RA3=0x01;
+        }
+        else
+        {
+            RA3=0x00;
+        }
+         if((0x10 & u32counter) != 0x00)
+        {
+            RA4=0x01;
+        }
+        else
+        {
+            RA4=0x00;
+        }
+         if((0x20 & u32counter) != 0x00)
+        {
+            RA5=0x01;
+        }
+        else
+        {
+            RA5=0x00;
+        }
+        __delay_ms(250);
+    }
+        
     
-
 } /* end UserAppRun */
 
 
