@@ -93,6 +93,10 @@ void GpioSetup(void)
     
     TRISA=0;
     ANSELA=0;
+    LATB=0;     
+    TRISB=0x20;
+    ANSELB=0;
+           
     
   
 } /* end GpioSetup() */

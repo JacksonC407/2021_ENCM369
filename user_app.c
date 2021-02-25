@@ -96,9 +96,13 @@ Promises:
 void UserAppRun(void)
 {
     
-u32 u32counter;
-    for( u32counter = 0x00 ; u32counter <= 0x40 ; u32counter+=0x01) // counts from 0-63 counting by 1
+static u32 u32counter;
+
+for( u32counter = 0x00 ; u32counter <= 0x40 ; u32counter) // counts from 0-63 counting by 1
     {
+    if(RB5==1)
+    {
+     u32counter=u32counter+1;   
           if((0x01 & u32counter) != 0x00) // sets RA0 to on if the counter and 0x01 are not equal to 0
         {
             RA0=0x01;
@@ -147,7 +151,7 @@ u32 u32counter;
         {
             RA5=0x00;
         }
-        __delay_ms(250);
+    }
     }
         
     
