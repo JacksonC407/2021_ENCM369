@@ -100,6 +100,7 @@ static u32 u32counter;
 
 for( u32counter = 0x00 ; u32counter <= 0x40 ; u32counter) // counts from 0-63 counting by 1
     {
+    __delay_ms(100);
     if(RB5==1)
     {
      u32counter=u32counter+1;   
@@ -151,6 +152,7 @@ for( u32counter = 0x00 ; u32counter <= 0x40 ; u32counter) // counts from 0-63 co
         {
             RA5=0x00;
         }
+      __delay_ms(250);
     }
     }
         
