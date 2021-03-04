@@ -73,14 +73,42 @@ Promises:
 - NONE
 
 */
-#define _XTAL_FREQ 64000000
+
 void UserAppInitialize(void)
 {
+    LATA = 0x80;
     
+    T0CON0 = 0x90;
+    T0CON1 = 0x54;
 
 } /* end UserAppInitialize() */
 
-  
+  /*---------------------------------------------------------------------------------------------------------------------
+ void TimeXus(u16 u16Microseconds)
+ Sets Timer0 to count u16Microseconds
+ 
+ Requires:
+ - Timer0 configured such that each timer tick is 1 microsecond
+ - u16Microseconds is the value in microseconds to time from 1 to 65535
+ 
+ Promises:
+ - Pre-loads TMr0H:L to clock out desired period
+ - TMR0IF cleared
+ - Timer0 enabled
+ */
+void TimeXus(u16 u16micros)
+{
+    T0CON0 &= 0x7f;
+    
+    u16 u16Time = 0xffff-u16micros;
+    TMR0L = u16Time & 0x00ff;
+    TMR0H = (u8)((u16Time & 0xff00)>>8);
+            
+    PIR3 &= 0x7f;
+    
+    T0CON0|=0x80;
+    
+}
 /*!----------------------------------------------------------------------------------------------------------------------
 @fn void UserAppRun(void)
 
@@ -95,62 +123,29 @@ Promises:
 */
 void UserAppRun(void)
 {
+    static u16 u16Count=0x0000;
+    static int intLedDesign=0;
+    u8 u8Design [5]= {0x21,0x12,0x0c,0x12,0x21};
     
-u32 u32counter;
-    for( u32counter = 0x00 ; u32counter <= 0x40 ; u32counter+=0x01) // counts from 0-63 counting by 1
+    u16Count++;
+    
+    if ( u16Count == 500)
     {
-          if((0x01 & u32counter) != 0x00) // sets RA0 to on if the counter and 0x01 are not equal to 0
-        {
-            RA0=0x01;
-        }
-        else
-        {
-            RA0=0x00;
-        }
-        if((0x02 & u32counter) != 0x00)
-        {
-            RA1=0x01;
-        }
-        else
-        {
-            RA1=0x00;
-        }
-         if((0x04 & u32counter) != 0x00)
-        {
-            RA2=0x01;
-        }
-        else
-        {
-            RA2=0x00;
-        }
-         if((0x08 & u32counter) != 0x00)
-        {
-            RA3=0x01;
-        }
-        else
-        {
-            RA3=0x00;
-        }
-         if((0x10 & u32counter) != 0x00)
-        {
-            RA4=0x01;
-        }
-        else
-        {
-            RA4=0x00;
-        }
-         if((0x20 & u32counter) != 0x00)
-        {
-            RA5=0x01;
-        }
-        else
-        {
-            RA5=0x00;
-        }
-        __delay_ms(250);
+       u16Count=0x0000;
+       u8 u8Pattern=LATA;
+       
+       u8Pattern &= 0x80;
+       
+       u8Pattern |= u8Design [intLedDesign];
+       LATA=u8Pattern;
+       intLedDesign++;
+       
+       if(intLedDesign == 5)
+       {
+           intLedDesign=0;
+       }
+       
     }
-        
-    
 } /* end UserAppRun */
 
 

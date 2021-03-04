@@ -27309,19 +27309,50 @@ extern volatile u32 G_u32SystemFlags;
 # 77 "user_app.c"
 void UserAppInitialize(void)
 {
+    LATA = 0x80;
 
+    T0CON0 = 0x90;
+    T0CON1 = 0x54;
 
 }
-# 96 "user_app.c"
+# 99 "user_app.c"
+void TimeXus(u16 u16micros)
+{
+    T0CON0 &= 0x7f;
+
+    u16 u16Time = 0xffff-u16micros;
+    TMR0L = u16Time & 0x00ff;
+    TMR0H = (u8)((u16Time & 0xff00)>>8);
+
+    PIR3 &= 0x7f;
+
+    T0CON0|=0x80;
+
+}
+# 124 "user_app.c"
 void UserAppRun(void)
 {
+    static u16 u16Count=0x0000;
+    static int intLedDesign=0;
+    u8 u8Design [5]= {0x21,0x12,0x0c,0x12,0x21};
 
-u32 u32counter;
-    for( u32counter = 0x00 ; u32counter <= 0x40 ; u32counter+=0x01)
+    u16Count++;
+
+    if ( u16Count == 500)
     {
-        LATA=(LATA & 0x20)|u32counter;
-        _delay((unsigned long)((250)*(64000000/4000.0)));
+       u16Count=0x0000;
+       u8 u8Pattern=LATA;
+
+       u8Pattern &= 0x80;
+
+       u8Pattern |= u8Design [intLedDesign];
+       LATA=u8Pattern;
+       intLedDesign++;
+
+       if(intLedDesign == 5)
+       {
+           intLedDesign=0;
+       }
+
     }
-
-
 }

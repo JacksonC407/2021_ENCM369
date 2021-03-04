@@ -203,9 +203,7 @@
         <property key="memories.programmemory.ranges" value="0-1ffff"/>
         <property key="memories.rww" value="true"/>
         <property key="poweroptions.powerenable" value="true"/>
-        <property key="programmerToGoFilePath"
-                  value="C:/Users/Owner/Desktop/encm369/PIC Acitivity 3.X/debug/default/PIC Acitivity 3_ptg"/>
-        <property key="programmerToGoImageName" value="PIC Acitivity 3_ptg"/>
+        <property key="programmerToGoImageName" value="PicActivity5_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.ledbrightness" value="5"/>
