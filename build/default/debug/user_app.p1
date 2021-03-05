@@ -2608,18 +2608,18 @@ Version 4.0 HI-TECH Software Intermediate Code
 [f ]
 "126
 [; ;user_app.c: 126:     static u16 u16Count=0x0000;
-[v F15923 `us ~T0 @X0 1 s u16Count ]
-[i F15923
+[v F15925 `us ~T0 @X0 1 s u16Count ]
+[i F15925
 -> -> 0 `i `us
 ]
 "127
 [; ;user_app.c: 127:     static int intLedDesign=0;
-[v F15924 `i ~T0 @X0 1 s intLedDesign ]
-[i F15924
+[v F15926 `i ~T0 @X0 1 s intLedDesign ]
+[i F15926
 -> 0 `i
 ]
-[v F15925 `uc ~T0 @X0 -> 5 `i s ]
-[i F15925
+[v F15927 `uc ~T0 @X0 -> 5 `i s ]
+[i F15927
 :U ..
 "128
 [; ;user_app.c: 128:     u8 u8Design [5]= {0x21,0x12,0x0c,0x12,0x21};
@@ -2631,19 +2631,19 @@ Version 4.0 HI-TECH Software Intermediate Code
 ..
 ]
 [v _u8Design `uc ~T0 @X0 -> 5 `i a ]
-[e = _u8Design F15925 ]
+[e = _u8Design F15927 ]
 "130
 [; ;user_app.c: 130:     u16Count++;
-[e ++ F15923 -> -> 1 `i `us ]
+[e ++ F15925 -> -> 1 `i `us ]
 "132
 [; ;user_app.c: 132:     if ( u16Count == 500)
-[e $ ! == -> F15923 `ui -> -> 500 `i `ui 2275  ]
+[e $ ! == -> F15925 `ui -> -> 500 `i `ui 2275  ]
 "133
 [; ;user_app.c: 133:     {
 {
 "134
 [; ;user_app.c: 134:        u16Count=0x0000;
-[e = F15923 -> -> 0 `i `us ]
+[e = F15925 -> -> 0 `i `us ]
 "135
 [; ;user_app.c: 135:        u8 u8Pattern=LATA;
 [v _u8Pattern `uc ~T0 @X0 1 a ]
@@ -2653,22 +2653,22 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e =& _u8Pattern -> -> 128 `i `uc ]
 "139
 [; ;user_app.c: 139:        u8Pattern |= u8Design [intLedDesign];
-[e =| _u8Pattern -> *U + &U _u8Design * -> -> F15924 `ui `ux -> -> # *U &U _u8Design `ui `ux `uc ]
+[e =| _u8Pattern -> *U + &U _u8Design * -> -> F15926 `ui `ux -> -> # *U &U _u8Design `ui `ux `uc ]
 "140
 [; ;user_app.c: 140:        LATA=u8Pattern;
 [e = _LATA _u8Pattern ]
 "141
 [; ;user_app.c: 141:        intLedDesign++;
-[e ++ F15924 -> 1 `i ]
+[e ++ F15926 -> 1 `i ]
 "143
 [; ;user_app.c: 143:        if(intLedDesign == 5)
-[e $ ! == F15924 -> 5 `i 2276  ]
+[e $ ! == F15926 -> 5 `i 2276  ]
 "144
 [; ;user_app.c: 144:        {
 {
 "145
 [; ;user_app.c: 145:            intLedDesign=0;
-[e = F15924 -> 0 `i ]
+[e = F15926 -> 0 `i ]
 "146
 [; ;user_app.c: 146:        }
 }

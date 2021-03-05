@@ -39,6 +39,8 @@
 [v _main main `(v  1 e 1 0 ]
 "77 D:\GitHub\jackson\2021_ENCM369\user_app.c
 [v _UserAppInitialize UserAppInitialize `(v  1 e 1 0 ]
+"99
+[v _TimeXus TimeXus `(v  1 e 1 0 ]
 "124
 [v _UserAppRun UserAppRun `(v  1 e 1 0 ]
 "22235 D:/Microchip/MPLABX/v5_45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h
@@ -68,7 +70,7 @@
 "35 D:\GitHub\jackson\2021_ENCM369\main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"68
+"69
 } 0
 "124 D:\GitHub\jackson\2021_ENCM369\user_app.c
 [v _UserAppRun UserAppRun `(v  1 e 1 0 ]
@@ -81,13 +83,22 @@
 [v UserAppRun@u16Count u16Count `us  1 s 2 u16Count ]
 "127
 [v UserAppRun@intLedDesign intLedDesign `i  1 s 2 intLedDesign ]
-[v UserAppRun@F15925 F15925 `[5]uc  1 s 5 F15925 ]
+[v UserAppRun@F15927 F15927 `[5]uc  1 s 5 F15927 ]
 "149
 } 0
 "77
 [v _UserAppInitialize UserAppInitialize `(v  1 e 1 0 ]
 {
 "84
+} 0
+"99
+[v _TimeXus TimeXus `(v  1 e 1 0 ]
+{
+"103
+[v TimeXus@u16Time u16Time `us  1 a 2 2 ]
+"99
+[v TimeXus@u16micros u16micros `us  1 p 2 0 ]
+"111
 } 0
 "134 D:\GitHub\jackson\2021_ENCM369\encm369_pic18.c
 [v _SystemSleep SystemSleep `(v  1 e 1 0 ]
