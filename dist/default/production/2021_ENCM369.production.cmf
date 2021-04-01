@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\Owner\AppData\Local\Temp\sbfc.o
+$C:\Users\Owner\AppData\Local\Temp\s724.o
 idloc IDLOC 5 200000 200000 20 1
 init CODE 0 1FFFC 1FFFC 4 1
 reset_vec CODE 0 0 0 4 1
@@ -152,42 +152,42 @@ $dist/default/production\2021_ENCM369.production.o
 1FE24 text0 CODE >68:C:\Users\Owner\Desktop\2021_ENCM369\main.c
 1FE28 text0 CODE >69:C:\Users\Owner\Desktop\2021_ENCM369\main.c
 1FE34 text0 CODE >70:C:\Users\Owner\Desktop\2021_ENCM369\main.c
-1FE4A cinit CODE >5369:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE4A cinit CODE >5371:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE4A cinit CODE >5374:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE4A cinit CODE >5413:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE4C cinit CODE >5414:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE4E cinit CODE >5415:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE50 cinit CODE >5416:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE52 cinit CODE >5417:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE54 cinit CODE >5418:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE56 cinit CODE >5419:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE5A cinit CODE >5420:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE5E cinit CODE >5421:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE5E cinit CODE >5422:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE60 cinit CODE >5423:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE64 cinit CODE >5424:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE66 cinit CODE >5425:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE68 cinit CODE >5426:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE6A cinit CODE >5427:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE6C cinit CODE >5428:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE6E cinit CODE >5432:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE70 cinit CODE >5433:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE72 cinit CODE >5434:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE74 cinit CODE >5435:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE76 cinit CODE >5436:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE78 cinit CODE >5437:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE7A cinit CODE >5438:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE7C cinit CODE >5439:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE82 cinit CODE >5443:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE86 cinit CODE >5444:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE88 cinit CODE >5445:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE88 cinit CODE >5446:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE8A cinit CODE >5447:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE8C cinit CODE >5448:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE8E cinit CODE >5454:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE8E cinit CODE >5456:C:\Users\Owner\AppData\Local\Temp\sbfc.s
-1FE90 cinit CODE >5457:C:\Users\Owner\AppData\Local\Temp\sbfc.s
+1FE4A cinit CODE >5369:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE4A cinit CODE >5371:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE4A cinit CODE >5374:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE4A cinit CODE >5413:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE4C cinit CODE >5414:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE4E cinit CODE >5415:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE50 cinit CODE >5416:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE52 cinit CODE >5417:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE54 cinit CODE >5418:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE56 cinit CODE >5419:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE5A cinit CODE >5420:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE5E cinit CODE >5421:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE5E cinit CODE >5422:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE60 cinit CODE >5423:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE64 cinit CODE >5424:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE66 cinit CODE >5425:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE68 cinit CODE >5426:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE6A cinit CODE >5427:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE6C cinit CODE >5428:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE6E cinit CODE >5432:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE70 cinit CODE >5433:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE72 cinit CODE >5434:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE74 cinit CODE >5435:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE76 cinit CODE >5436:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE78 cinit CODE >5437:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE7A cinit CODE >5438:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE7C cinit CODE >5439:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE82 cinit CODE >5443:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE86 cinit CODE >5444:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE88 cinit CODE >5445:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE88 cinit CODE >5446:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE8A cinit CODE >5447:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE8C cinit CODE >5448:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE8E cinit CODE >5454:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE8E cinit CODE >5456:C:\Users\Owner\AppData\Local\Temp\s724.s
+1FE90 cinit CODE >5457:C:\Users\Owner\AppData\Local\Temp\s724.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -208,15 +208,15 @@ __Hspace_2 0 0 ABS 0 - dist/default/production\2021_ENCM369.production.o
 __Hspace_4 60000A 0 ABS 0 - dist/default/production\2021_ENCM369.production.o
 __HidataBANK6 0 0 ABS 0 idataBANK6 dist/default/production\2021_ENCM369.production.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\2021_ENCM369.production.o
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\Owner\AppData\Local\Temp\sbfc.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\Owner\AppData\Local\Temp\s724.o
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\2021_ENCM369.production.o
 __end_of_TimeXus 1FDEC 0 CODE 0 text3 dist/default/production\2021_ENCM369.production.o
 __Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production\2021_ENCM369.production.o
 _LATA 4BE 0 ABS 0 - dist/default/production\2021_ENCM369.production.o
 _PIR3 4B1 0 ABS 0 - dist/default/production\2021_ENCM369.production.o
-___sp 0 0 STACK 2 stack C:\Users\Owner\AppData\Local\Temp\sbfc.o
+___sp 0 0 STACK 2 stack C:\Users\Owner\AppData\Local\Temp\s724.o
 _main 1FE0E 0 CODE 0 text0 dist/default/production\2021_ENCM369.production.o
-start 1FFFC 0 CODE 0 init C:\Users\Owner\AppData\Local\Temp\sbfc.o
+start 1FFFC 0 CODE 0 init C:\Users\Owner\AppData\Local\Temp\s724.o
 __size_of_main 0 0 ABS 0 - dist/default/production\2021_ENCM369.production.o
 __HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\2021_ENCM369.production.o
 _DAC1DATL 7D 0 ABS 0 - dist/default/production\2021_ENCM369.production.o
@@ -224,11 +224,11 @@ __size_of_SystemSleep 0 0 ABS 0 - dist/default/production\2021_ENCM369.productio
 __LidataBANK6 0 0 ABS 0 idataBANK6 dist/default/production\2021_ENCM369.production.o
 __Hpowerup 0 0 CODE 0 powerup dist/default/production\2021_ENCM369.production.o
 __HdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\2021_ENCM369.production.o
-__accesstop 560 0 ABS 0 - C:\Users\Owner\AppData\Local\Temp\sbfc.o
-intlevel0 0 0 CODE 0 text C:\Users\Owner\AppData\Local\Temp\sbfc.o
-intlevel1 0 0 CODE 0 text C:\Users\Owner\AppData\Local\Temp\sbfc.o
-intlevel2 0 0 CODE 0 text C:\Users\Owner\AppData\Local\Temp\sbfc.o
-intlevel3 0 0 CODE 0 text C:\Users\Owner\AppData\Local\Temp\sbfc.o
+__accesstop 560 0 ABS 0 - C:\Users\Owner\AppData\Local\Temp\s724.o
+intlevel0 0 0 CODE 0 text C:\Users\Owner\AppData\Local\Temp\s724.o
+intlevel1 0 0 CODE 0 text C:\Users\Owner\AppData\Local\Temp\s724.o
+intlevel2 0 0 CODE 0 text C:\Users\Owner\AppData\Local\Temp\s724.o
+intlevel3 0 0 CODE 0 text C:\Users\Owner\AppData\Local\Temp\s724.o
 __LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\2021_ENCM369.production.o
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\2021_ENCM369.production.o
 __Hifardata 0 0 CODE 0 ifardata dist/default/production\2021_ENCM369.production.o
@@ -238,8 +238,8 @@ UserAppRun@bUp 513 0 COMRAM 1 dataCOMRAM dist/default/production\2021_ENCM369.pr
 _UserAppRun 1FE94 0 CODE 0 text1 dist/default/production\2021_ENCM369.production.o
 _ANSELA 400 0 ABS 0 - dist/default/production\2021_ENCM369.production.o
 _G_u32SystemTime1s 505 0 COMRAM 1 bssCOMRAM dist/default/production\2021_ENCM369.production.o
-___inthi_sp 0 0 STACK 2 stack C:\Users\Owner\AppData\Local\Temp\sbfc.o
-___intlo_sp 0 0 STACK 2 stack C:\Users\Owner\AppData\Local\Temp\sbfc.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\Owner\AppData\Local\Temp\s724.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\Owner\AppData\Local\Temp\s724.o
 __LdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\2021_ENCM369.production.o
 _DAC1CON 7F 0 ABS 0 - dist/default/production\2021_ENCM369.production.o
 __Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\2021_ENCM369.production.o
@@ -307,7 +307,7 @@ __Hbank36 0 0 ABS 0 bank36 dist/default/production\2021_ENCM369.production.o
 __Hbank37 0 0 ABS 0 bank37 dist/default/production\2021_ENCM369.production.o
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\2021_ENCM369.production.o
 __Hbigram 0 0 ABS 0 bigram dist/default/production\2021_ENCM369.production.o
-__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\Owner\AppData\Local\Temp\sbfc.o
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\Owner\AppData\Local\Temp\s724.o
 _SystemSleep 1FDA4 0 CODE 0 text4 dist/default/production\2021_ENCM369.production.o
 __Hcomram 0 0 ABS 0 comram dist/default/production\2021_ENCM369.production.o
 __Hconfig 30000A 0 CONFIG 4 config dist/default/production\2021_ENCM369.production.o
@@ -404,8 +404,8 @@ __end_of_SysTickSetup 1FE0E 0 CODE 0 text5 dist/default/production\2021_ENCM369.
 _UserAppInitialize 1FDB6 0 CODE 0 text2 dist/default/production\2021_ENCM369.production.o
 __Lfarbss 0 0 FARRAM 0 farbss dist/default/production\2021_ENCM369.production.o
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production\2021_ENCM369.production.o
-stackhi 25FF 0 ABS 0 - C:\Users\Owner\AppData\Local\Temp\sbfc.o
-stacklo 700 0 ABS 0 - C:\Users\Owner\AppData\Local\Temp\sbfc.o
+stackhi 25FF 0 ABS 0 - C:\Users\Owner\AppData\Local\Temp\s724.o
+stacklo 700 0 ABS 0 - C:\Users\Owner\AppData\Local\Temp\s724.o
 __Lirdata 0 0 CODE 0 irdata dist/default/production\2021_ENCM369.production.o
 __Lspace_0 0 0 ABS 0 - dist/default/production\2021_ENCM369.production.o
 __Lspace_1 0 0 ABS 0 - dist/default/production\2021_ENCM369.production.o
@@ -429,7 +429,7 @@ __ptext5 1FDEC 0 CODE 0 text5 dist/default/production\2021_ENCM369.production.o
 __ptext6 1FDA6 0 CODE 0 text6 dist/default/production\2021_ENCM369.production.o
 __ptext7 1FDA2 0 CODE 0 text7 dist/default/production\2021_ENCM369.production.o
 __Lstruct 0 0 COMRAM 1 struct dist/default/production\2021_ENCM369.production.o
-__ramtop 2600 0 RAM 0 ramtop C:\Users\Owner\AppData\Local\Temp\sbfc.o
+__ramtop 2600 0 RAM 0 ramtop C:\Users\Owner\AppData\Local\Temp\s724.o
 __Lpowerup 0 0 CODE 0 powerup dist/default/production\2021_ENCM369.production.o
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\2021_ENCM369.production.o
 _ClockSetup 1FDA2 0 CODE 0 text7 dist/default/production\2021_ENCM369.production.o
