@@ -58,7 +58,7 @@
 
 
 #pragma config CP = OFF
-# 87 "./configuration.h"
+# 88 "./configuration.h"
 # 1 "C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\\pic\\include\\xc.h" 1 3
 # 18 "C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\\pic\\include\\xc.h" 3
 extern const char __xc8_OPTIM_SPEED;
@@ -27222,10 +27222,12 @@ __attribute__((__unsupported__("The READTIMER" "3" "() macro is not available wi
 unsigned char __t1rd16on(void);
 unsigned char __t3rd16on(void);
 # 34 "C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\\pic\\include\\xc.h" 2 3
-# 87 "./configuration.h" 2
-# 96 "./configuration.h"
+# 88 "./configuration.h" 2
+
+
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.31\\pic\\include\\c99\\stdbool.h" 1 3
-# 96 "./configuration.h" 2
+# 90 "./configuration.h" 2
+
 
 # 1 "./typedefs.h" 1
 # 31 "./typedefs.h"
@@ -27265,42 +27267,56 @@ typedef void(*fnCode_u16_type)(u16 x);
 
 
 typedef enum {ACTIVE_LOW = 0, ACTIVE_HIGH = 1} GpioActiveType;
-# 97 "./configuration.h" 2
+# 92 "./configuration.h" 2
+
+# 1 "./interrupts.h" 1
+# 27 "./interrupts.h"
+void InterruptSetup(void);
+# 93 "./configuration.h" 2
 
 # 1 "./main.h" 1
-# 98 "./configuration.h" 2
+# 94 "./configuration.h" 2
 
 
 
 # 1 "./encm369_pic18.h" 1
-# 60 "./encm369_pic18.h"
+# 58 "./encm369_pic18.h"
 void ClockSetup(void);
 void GpioSetup(void);
 
 void SysTickSetup(void);
 void SystemSleep(void);
-# 101 "./configuration.h" 2
+# 97 "./configuration.h" 2
 
 
 
 
+
+# 1 "./music.h" 1
+# 102 "./configuration.h" 2
 
 # 1 "./user_app.h" 1
-# 18 "./user_app.h"
-void TimeXus(u16 u16micors);
-# 27 "./user_app.h"
+# 22 "./user_app.h"
+void TimeXus(u16 u16TimeXus_);
+
+
+
+
+
 void UserAppInitialize(void);
 void UserAppRun(void);
-# 106 "./configuration.h" 2
+# 103 "./configuration.h" 2
 # 24 "encm369_pic18.c" 2
-# 37 "encm369_pic18.c"
+
+# 1 "./pic18f27q43.h" 1
+# 25 "encm369_pic18.c" 2
+# 38 "encm369_pic18.c"
 extern volatile u32 G_u32SystemTime1ms;
 extern volatile u32 G_u32SystemTime1s;
-extern volatile u32 G_u32SystemFlags;
-# 70 "encm369_pic18.c"
+extern volatile u8 G_u8SystemFlags;
+# 71 "encm369_pic18.c"
 void ClockSetup(void)
 {
-
 
 
 }
@@ -27308,20 +27324,38 @@ void ClockSetup(void)
 void GpioSetup(void)
 {
 
+  ANSELA = 0x00;
+  TRISA = 0x00;
 
-    TRISA=0x00;
-    ANSELA=0x00;
-    LATA=0x80;
+
+  DAC1CON = 0xA0;
+  DAC1DATL = 0;
+
 }
-# 112 "encm369_pic18.c"
+# 115 "encm369_pic18.c"
 void SysTickSetup(void)
 {
   G_u32SystemTime1ms = 0;
   G_u32SystemTime1s = 0;
 
+
+
+
+
+
+
+  T2PR = 125;
+  T2CLKCON = 0x01;
+  PIR3bits.TMR2IF = 0;
+  T2CON = 0xF0;
+
+  PIE3bits.TMR2IE = 1;
+
 }
-# 134 "encm369_pic18.c"
+# 150 "encm369_pic18.c"
 void SystemSleep(void)
 {
+  G_u8SystemFlags |= (u8)0x40;
+  while(G_u8SystemFlags & (u8)0x40);
 
 }

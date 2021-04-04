@@ -1,5 +1,81 @@
 Version 4.0 HI-TECH Software Intermediate Code
-"45585 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h
+"22633 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h: 22633:     struct {
+[s S1099 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1099 . OUTPS MD16 OUT . EN ]
+"22640
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h: 22640:     struct {
+[s S1100 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1100 . T0OUTPS T0MD16 T0OUT . T0EN ]
+"22647
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h: 22647:     struct {
+[s S1101 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1101 . OUTPS0 OUTPS1 OUTPS2 OUTPS3 T016BIT ]
+"22632
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h: 22632: typedef union {
+[u S1098 `S1099 1 `S1100 1 `S1101 1 ]
+[n S1098 . . . . ]
+"22655
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h: 22655: extern volatile T0CON0bits_t T0CON0bits __attribute__((address(0x31A)));
+[v _T0CON0bits `VS1098 ~T0 @X0 0 e@794 ]
+"22373
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h: 22373: extern volatile unsigned char TMR0H __attribute__((address(0x319)));
+[v _TMR0H `Vuc ~T0 @X0 0 e@793 ]
+"22235
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h: 22235: extern volatile unsigned char TMR0L __attribute__((address(0x318)));
+[v _TMR0L `Vuc ~T0 @X0 0 e@792 ]
+"44876
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h: 44876:     struct {
+[s S2125 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S2125 . SPI1RXIF SPI1TXIF SPI1IF TMR2IF TMR1IF TMR1GIF CCP1IF TMR0IF ]
+"44875
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h: 44875: typedef union {
+[u S2124 `S2125 1 ]
+[n S2124 . . ]
+"44887
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h: 44887: extern volatile PIR3bits_t PIR3bits __attribute__((address(0x4B1)));
+[v _PIR3bits `VS2124 ~T0 @X0 0 e@1201 ]
+"23018
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h: 23018:     struct {
+[s S1114 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 ]
+[n S1114 . ON RD16 NOT_SYNC . CKPS ]
+"23025
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h: 23025:     struct {
+[s S1115 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1115 . TMR1ON T1RD16 NOT_T1SYNC . T1CKPS0 T1CKPS1 ]
+"23033
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h: 23033:     struct {
+[s S1116 :4 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1116 . . CKPS0 CKPS1 ]
+"23038
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h: 23038:     struct {
+[s S1117 :1 `uc 1 :1 `uc 1 ]
+[n S1117 . . RD161 ]
+"23017
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h: 23017: typedef union {
+[u S1113 `S1114 1 `S1115 1 `S1116 1 `S1117 1 ]
+[n S1113 . . . . . ]
+"23043
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h: 23043: extern volatile T1CONbits_t T1CONbits __attribute__((address(0x31E)));
+[v _T1CONbits `VS1113 ~T0 @X0 0 e@798 ]
+"22937
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h: 22937: extern volatile unsigned char TMR1H __attribute__((address(0x31D)));
+[v _TMR1H `Vuc ~T0 @X0 0 e@797 ]
+"22867
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h: 22867: extern volatile unsigned char TMR1L __attribute__((address(0x31C)));
+[v _TMR1L `Vuc ~T0 @X0 0 e@796 ]
+"44002
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h: 44002:     struct {
+[s S2093 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S2093 . SPI1RXIE SPI1TXIE SPI1IE TMR2IE TMR1IE TMR1GIE CCP1IE TMR0IE ]
+"44001
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h: 44001: typedef union {
+[u S2092 `S2093 1 ]
+[n S2092 . . ]
+"44013
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h: 44013: extern volatile PIE3bits_t PIE3bits __attribute__((address(0x4A1)));
+[v _PIE3bits `VS2092 ~T0 @X0 0 e@1185 ]
+"45585
 [; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h: 45585: extern volatile unsigned char LATA __attribute__((address(0x4BE)));
 [v _LATA `Vuc ~T0 @X0 0 e@1214 ]
 "22627
@@ -8,15 +84,15 @@ Version 4.0 HI-TECH Software Intermediate Code
 "22725
 [; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h: 22725: extern volatile unsigned char T0CON1 __attribute__((address(0x31B)));
 [v _T0CON1 `Vuc ~T0 @X0 0 e@795 ]
-"22235
-[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h: 22235: extern volatile unsigned char TMR0L __attribute__((address(0x318)));
-[v _TMR0L `Vuc ~T0 @X0 0 e@792 ]
-"22373
-[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h: 22373: extern volatile unsigned char TMR0H __attribute__((address(0x319)));
-[v _TMR0H `Vuc ~T0 @X0 0 e@793 ]
-"44870
-[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h: 44870: extern volatile unsigned char PIR3 __attribute__((address(0x4B1)));
-[v _PIR3 `Vuc ~T0 @X0 0 e@1201 ]
+"23197
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h: 23197: extern volatile unsigned char T1GCON __attribute__((address(0x31F)));
+[v _T1GCON `Vuc ~T0 @X0 0 e@799 ]
+"23601
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h: 23601: extern volatile unsigned char T1CLK __attribute__((address(0x321)));
+[v _T1CLK `Vuc ~T0 @X0 0 e@801 ]
+"23007
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h: 23007: extern volatile unsigned char T1CON __attribute__((address(0x31E)));
+[v _T1CON `Vuc ~T0 @X0 0 e@798 ]
 "30 ./configuration.h
 [p x FEXTOSC  =  OFF     ]
 "31
@@ -2541,143 +2617,433 @@ Version 4.0 HI-TECH Software Intermediate Code
 "33 user_app.c
 [; ;user_app.c: 33: volatile u8 G_u8UserAppFlags;
 [v _G_u8UserAppFlags `Vuc ~T0 @X0 1 e ]
-"77
-[; ;user_app.c: 77: void UserAppInitialize(void)
+"34
+[; ;user_app.c: 34: volatile u8 G_u8UserAppTimePeriodHi;
+[v _G_u8UserAppTimePeriodHi `Vuc ~T0 @X0 1 e ]
+"35
+[; ;user_app.c: 35: volatile u8 G_u8UserAppTimePeriodLo;
+[v _G_u8UserAppTimePeriodLo `Vuc ~T0 @X0 1 e ]
+"37
+[; ;user_app.c: 37: u8 G_au8UserAppsinTable[] =
+[v _G_au8UserAppsinTable `uc ~T0 @X0 -> 256 `i e ]
+[i _G_au8UserAppsinTable
+:U ..
+-> -> 128 `i `uc
+-> -> 131 `i `uc
+-> -> 134 `i `uc
+-> -> 137 `i `uc
+-> -> 140 `i `uc
+-> -> 143 `i `uc
+-> -> 146 `i `uc
+-> -> 149 `i `uc
+-> -> 152 `i `uc
+-> -> 155 `i `uc
+-> -> 158 `i `uc
+-> -> 162 `i `uc
+-> -> 165 `i `uc
+-> -> 167 `i `uc
+-> -> 170 `i `uc
+-> -> 173 `i `uc
+-> -> 176 `i `uc
+-> -> 179 `i `uc
+-> -> 182 `i `uc
+-> -> 185 `i `uc
+-> -> 188 `i `uc
+-> -> 190 `i `uc
+-> -> 193 `i `uc
+-> -> 196 `i `uc
+-> -> 198 `i `uc
+-> -> 201 `i `uc
+-> -> 203 `i `uc
+-> -> 206 `i `uc
+-> -> 208 `i `uc
+-> -> 211 `i `uc
+-> -> 213 `i `uc
+-> -> 215 `i `uc
+-> -> 218 `i `uc
+-> -> 220 `i `uc
+-> -> 222 `i `uc
+-> -> 224 `i `uc
+-> -> 226 `i `uc
+-> -> 228 `i `uc
+-> -> 230 `i `uc
+-> -> 232 `i `uc
+-> -> 234 `i `uc
+-> -> 235 `i `uc
+-> -> 237 `i `uc
+-> -> 238 `i `uc
+-> -> 240 `i `uc
+-> -> 241 `i `uc
+-> -> 243 `i `uc
+-> -> 244 `i `uc
+-> -> 245 `i `uc
+-> -> 246 `i `uc
+-> -> 248 `i `uc
+-> -> 249 `i `uc
+-> -> 250 `i `uc
+-> -> 250 `i `uc
+-> -> 251 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 253 `i `uc
+-> -> 254 `i `uc
+-> -> 254 `i `uc
+-> -> 254 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 254 `i `uc
+-> -> 254 `i `uc
+-> -> 254 `i `uc
+-> -> 253 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 251 `i `uc
+-> -> 250 `i `uc
+-> -> 250 `i `uc
+-> -> 249 `i `uc
+-> -> 248 `i `uc
+-> -> 246 `i `uc
+-> -> 245 `i `uc
+-> -> 244 `i `uc
+-> -> 243 `i `uc
+-> -> 241 `i `uc
+-> -> 240 `i `uc
+-> -> 238 `i `uc
+-> -> 237 `i `uc
+-> -> 235 `i `uc
+-> -> 234 `i `uc
+-> -> 232 `i `uc
+-> -> 230 `i `uc
+-> -> 228 `i `uc
+-> -> 226 `i `uc
+-> -> 224 `i `uc
+-> -> 222 `i `uc
+-> -> 220 `i `uc
+-> -> 218 `i `uc
+-> -> 215 `i `uc
+-> -> 213 `i `uc
+-> -> 211 `i `uc
+-> -> 208 `i `uc
+-> -> 206 `i `uc
+-> -> 203 `i `uc
+-> -> 201 `i `uc
+-> -> 198 `i `uc
+-> -> 196 `i `uc
+-> -> 193 `i `uc
+-> -> 190 `i `uc
+-> -> 188 `i `uc
+-> -> 185 `i `uc
+-> -> 182 `i `uc
+-> -> 179 `i `uc
+-> -> 176 `i `uc
+-> -> 173 `i `uc
+-> -> 170 `i `uc
+-> -> 167 `i `uc
+-> -> 165 `i `uc
+-> -> 162 `i `uc
+-> -> 158 `i `uc
+-> -> 155 `i `uc
+-> -> 152 `i `uc
+-> -> 149 `i `uc
+-> -> 146 `i `uc
+-> -> 143 `i `uc
+-> -> 140 `i `uc
+-> -> 137 `i `uc
+-> -> 134 `i `uc
+-> -> 131 `i `uc
+-> -> 128 `i `uc
+-> -> 124 `i `uc
+-> -> 121 `i `uc
+-> -> 118 `i `uc
+-> -> 115 `i `uc
+-> -> 112 `i `uc
+-> -> 109 `i `uc
+-> -> 106 `i `uc
+-> -> 103 `i `uc
+-> -> 100 `i `uc
+-> -> 97 `i `uc
+-> -> 93 `i `uc
+-> -> 90 `i `uc
+-> -> 88 `i `uc
+-> -> 85 `i `uc
+-> -> 82 `i `uc
+-> -> 79 `i `uc
+-> -> 76 `i `uc
+-> -> 73 `i `uc
+-> -> 70 `i `uc
+-> -> 67 `i `uc
+-> -> 65 `i `uc
+-> -> 62 `i `uc
+-> -> 59 `i `uc
+-> -> 57 `i `uc
+-> -> 54 `i `uc
+-> -> 52 `i `uc
+-> -> 49 `i `uc
+-> -> 47 `i `uc
+-> -> 44 `i `uc
+-> -> 42 `i `uc
+-> -> 40 `i `uc
+-> -> 37 `i `uc
+-> -> 35 `i `uc
+-> -> 33 `i `uc
+-> -> 31 `i `uc
+-> -> 29 `i `uc
+-> -> 27 `i `uc
+-> -> 25 `i `uc
+-> -> 23 `i `uc
+-> -> 21 `i `uc
+-> -> 20 `i `uc
+-> -> 18 `i `uc
+-> -> 17 `i `uc
+-> -> 15 `i `uc
+-> -> 14 `i `uc
+-> -> 12 `i `uc
+-> -> 11 `i `uc
+-> -> 10 `i `uc
+-> -> 9 `i `uc
+-> -> 7 `i `uc
+-> -> 6 `i `uc
+-> -> 5 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 3 `i `uc
+-> -> 2 `i `uc
+-> -> 2 `i `uc
+-> -> 1 `i `uc
+-> -> 1 `i `uc
+-> -> 1 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 1 `i `uc
+-> -> 1 `i `uc
+-> -> 1 `i `uc
+-> -> 2 `i `uc
+-> -> 2 `i `uc
+-> -> 3 `i `uc
+-> -> 4 `i `uc
+-> -> 5 `i `uc
+-> -> 5 `i `uc
+-> -> 6 `i `uc
+-> -> 7 `i `uc
+-> -> 9 `i `uc
+-> -> 10 `i `uc
+-> -> 11 `i `uc
+-> -> 12 `i `uc
+-> -> 14 `i `uc
+-> -> 15 `i `uc
+-> -> 17 `i `uc
+-> -> 18 `i `uc
+-> -> 20 `i `uc
+-> -> 21 `i `uc
+-> -> 23 `i `uc
+-> -> 25 `i `uc
+-> -> 27 `i `uc
+-> -> 29 `i `uc
+-> -> 31 `i `uc
+-> -> 33 `i `uc
+-> -> 35 `i `uc
+-> -> 37 `i `uc
+-> -> 40 `i `uc
+-> -> 42 `i `uc
+-> -> 44 `i `uc
+-> -> 47 `i `uc
+-> -> 49 `i `uc
+-> -> 52 `i `uc
+-> -> 54 `i `uc
+-> -> 57 `i `uc
+-> -> 59 `i `uc
+-> -> 62 `i `uc
+-> -> 65 `i `uc
+-> -> 67 `i `uc
+-> -> 70 `i `uc
+-> -> 73 `i `uc
+-> -> 76 `i `uc
+-> -> 79 `i `uc
+-> -> 82 `i `uc
+-> -> 85 `i `uc
+-> -> 88 `i `uc
+-> -> 90 `i `uc
+-> -> 93 `i `uc
+-> -> 97 `i `uc
+-> -> 100 `i `uc
+-> -> 103 `i `uc
+-> -> 106 `i `uc
+-> -> 109 `i `uc
+-> -> 112 `i `uc
+-> -> 115 `i `uc
+-> -> 118 `i `uc
+-> -> 121 `i `uc
+-> -> 124 `i `uc
+..
+]
+"94
+[; ;user_app.c: 94: void TimeXus(u16 u16TimeXus_)
+[v _TimeXus `(v ~T0 @X0 1 ef1`us ]
+"95
+[; ;user_app.c: 95: {
+{
+[e :U _TimeXus ]
+"94
+[; ;user_app.c: 94: void TimeXus(u16 u16TimeXus_)
+[v _u16TimeXus_ `us ~T0 @X0 1 r1 ]
+"95
+[; ;user_app.c: 95: {
+[f ]
+"96
+[; ;user_app.c: 96:   u16 u16Temp = 65535;
+[v _u16Temp `us ~T0 @X0 1 a ]
+[e = _u16Temp -> -> 65535 `l `us ]
+"108
+[; ;user_app.c: 108:   T0CON0bits.EN = 0;
+[e = . . _T0CON0bits 0 4 -> -> 0 `i `uc ]
+"111
+[; ;user_app.c: 111:   u16Temp -= u16TimeXus_;
+[e =- _u16Temp -> _u16TimeXus_ `us ]
+"112
+[; ;user_app.c: 112:   TMR0H = (u8)( (u16Temp >> 8) & 0x00FF);
+[e = _TMR0H -> & >> -> _u16Temp `ui -> 8 `i -> -> 255 `i `ui `uc ]
+"113
+[; ;user_app.c: 113:   TMR0L = (u8)( u16Temp & 0x00FF);
+[e = _TMR0L -> & -> _u16Temp `ui -> -> 255 `i `ui `uc ]
+"116
+[; ;user_app.c: 116:   PIR3bits.TMR0IF = 0;
+[e = . . _PIR3bits 0 7 -> -> 0 `i `uc ]
+"117
+[; ;user_app.c: 117:   T0CON0bits.EN = 1;
+[e = . . _T0CON0bits 0 4 -> -> 1 `i `uc ]
+"119
+[; ;user_app.c: 119: }
+[e :UE 2272 ]
+}
+"147
+[; ;user_app.c: 147: void InterruptTimerXus(u16 u16TimeXus_, _Bool bContinuous_)
+[v _InterruptTimerXus `(v ~T0 @X0 1 ef2`us`a ]
+"148
+[; ;user_app.c: 148: {
+{
+[e :U _InterruptTimerXus ]
+"147
+[; ;user_app.c: 147: void InterruptTimerXus(u16 u16TimeXus_, _Bool bContinuous_)
+[v _u16TimeXus_ `us ~T0 @X0 1 r1 ]
+[v _bContinuous_ `a ~T0 @X0 1 r2 ]
+"148
+[; ;user_app.c: 148: {
+[f ]
+"149
+[; ;user_app.c: 149:   u16 u16Temp;
+[v _u16Temp `us ~T0 @X0 1 a ]
+"152
+[; ;user_app.c: 152:   T1CONbits.ON = 0;
+[e = . . _T1CONbits 0 0 -> -> 0 `i `uc ]
+"155
+[; ;user_app.c: 155:   if(u16TimeXus_ > 32767)
+[e $ ! > -> _u16TimeXus_ `ui -> -> 32767 `i `ui 2274  ]
+"156
+[; ;user_app.c: 156:   {
+{
+"157
+[; ;user_app.c: 157:     u16TimeXus_ = 32767;
+[e = _u16TimeXus_ -> -> 32767 `i `us ]
+"158
+[; ;user_app.c: 158:   }
+}
+[e :U 2274 ]
+"161
+[; ;user_app.c: 161:   u16Temp = u16TimeXus_ << 1;
+[e = _u16Temp -> << -> _u16TimeXus_ `ui -> 1 `i `us ]
+"164
+[; ;user_app.c: 164:   u16Temp = 65535 - u16TimeXus_;
+[e = _u16Temp -> - -> 65535 `l -> _u16TimeXus_ `l `us ]
+"165
+[; ;user_app.c: 165:   G_u8UserAppTimePeriodHi = (u8)( (u16Temp >> 8) & 0x00FF);
+[e = _G_u8UserAppTimePeriodHi -> & >> -> _u16Temp `ui -> 8 `i -> -> 255 `i `ui `uc ]
+"166
+[; ;user_app.c: 166:   G_u8UserAppTimePeriodLo = (u8)( u16Temp & 0x00FF);
+[e = _G_u8UserAppTimePeriodLo -> & -> _u16Temp `ui -> -> 255 `i `ui `uc ]
+"167
+[; ;user_app.c: 167:   TMR1H = G_u8UserAppTimePeriodHi;
+[e = _TMR1H _G_u8UserAppTimePeriodHi ]
+"168
+[; ;user_app.c: 168:   TMR1L = G_u8UserAppTimePeriodLo;
+[e = _TMR1L _G_u8UserAppTimePeriodLo ]
+"171
+[; ;user_app.c: 171:   G_u8UserAppFlags &= ~(u8)0x01;
+[e =& _G_u8UserAppFlags -> ~ -> -> -> 1 `i `uc `i `Vuc ]
+"172
+[; ;user_app.c: 172:   if(bContinuous_)
+[e $ ! != -> _bContinuous_ `i -> 0 `i 2275  ]
+"173
+[; ;user_app.c: 173:   {
+{
+"174
+[; ;user_app.c: 174:     G_u8UserAppFlags |= (u8)0x01;
+[e =| _G_u8UserAppFlags -> -> -> 1 `i `uc `Vuc ]
+"175
+[; ;user_app.c: 175:   }
+}
+[e :U 2275 ]
+"178
+[; ;user_app.c: 178:   PIR3bits.TMR1IF = 0;
+[e = . . _PIR3bits 0 4 -> -> 0 `i `uc ]
+"179
+[; ;user_app.c: 179:   PIE3bits.TMR1IE = 1;
+[e = . . _PIE3bits 0 4 -> -> 1 `i `uc ]
+"180
+[; ;user_app.c: 180:   T1CONbits.ON = 1;
+[e = . . _T1CONbits 0 0 -> -> 1 `i `uc ]
+"182
+[; ;user_app.c: 182: }
+[e :UE 2273 ]
+}
+"204
+[; ;user_app.c: 204: void UserAppInitialize(void)
 [v _UserAppInitialize `(v ~T0 @X0 1 ef ]
-"78
-[; ;user_app.c: 78: {
+"205
+[; ;user_app.c: 205: {
 {
 [e :U _UserAppInitialize ]
 [f ]
-"79
-[; ;user_app.c: 79:     LATA = 0x80;
-[e = _LATA -> -> 128 `i `uc ]
-"81
-[; ;user_app.c: 81:     T0CON0 = 0x90;
+"207
+[; ;user_app.c: 207:     LATA &= 0xC0;
+[e =& _LATA -> -> 192 `i `Vuc ]
+"211
+[; ;user_app.c: 211:     T0CON0 = 0x90;
 [e = _T0CON0 -> -> 144 `i `uc ]
-"82
-[; ;user_app.c: 82:     T0CON1 = 0x54;
+"212
+[; ;user_app.c: 212:     T0CON1 = 0x54;
 [e = _T0CON1 -> -> 84 `i `uc ]
-"84
-[; ;user_app.c: 84: }
-[e :UE 2272 ]
+"216
+[; ;user_app.c: 216:     T1GCON = 0x00;
+[e = _T1GCON -> -> 0 `i `uc ]
+"217
+[; ;user_app.c: 217:     T1CLK = 0x01;
+[e = _T1CLK -> -> 1 `i `uc ]
+"218
+[; ;user_app.c: 218:     T1CON = 0x31;
+[e = _T1CON -> -> 49 `i `uc ]
+"223
+[; ;user_app.c: 223: }
+[e :UE 2276 ]
 }
-"99
-[; ;user_app.c: 99: void TimeXus(u16 u16micros)
-[v _TimeXus `(v ~T0 @X0 1 ef1`us ]
-"100
-[; ;user_app.c: 100: {
-{
-[e :U _TimeXus ]
-"99
-[; ;user_app.c: 99: void TimeXus(u16 u16micros)
-[v _u16micros `us ~T0 @X0 1 r1 ]
-"100
-[; ;user_app.c: 100: {
-[f ]
-"101
-[; ;user_app.c: 101:     T0CON0 &= 0x7f;
-[e =& _T0CON0 -> -> 127 `i `Vuc ]
-"103
-[; ;user_app.c: 103:     u16 u16Time = 0xffff-u16micros;
-[v _u16Time `us ~T0 @X0 1 a ]
-[e = _u16Time -> - -> 65535 `ui -> _u16micros `ui `us ]
-"104
-[; ;user_app.c: 104:     TMR0L = u16Time & 0x00ff;
-[e = _TMR0L -> & -> _u16Time `ui -> -> 255 `i `ui `uc ]
-"105
-[; ;user_app.c: 105:     TMR0H = (u8)((u16Time & 0xff00)>>8);
-[e = _TMR0H -> >> & -> _u16Time `ui -> 65280 `ui -> 8 `i `uc ]
-"107
-[; ;user_app.c: 107:     PIR3 &= 0x7f;
-[e =& _PIR3 -> -> 127 `i `Vuc ]
-"109
-[; ;user_app.c: 109:     T0CON0|=0x80;
-[e =| _T0CON0 -> -> 128 `i `Vuc ]
-"111
-[; ;user_app.c: 111: }
-[e :UE 2273 ]
-}
-"124
-[; ;user_app.c: 124: void UserAppRun(void)
+"238
+[; ;user_app.c: 238: void UserAppRun(void)
 [v _UserAppRun `(v ~T0 @X0 1 ef ]
-"125
-[; ;user_app.c: 125: {
+"239
+[; ;user_app.c: 239: {
 {
 [e :U _UserAppRun ]
 [f ]
-"126
-[; ;user_app.c: 126:     static u16 u16Count=0x0000;
-[v F15925 `us ~T0 @X0 1 s u16Count ]
-[i F15925
--> -> 0 `i `us
-]
-"127
-[; ;user_app.c: 127:     static int intLedDesign=0;
-[v F15926 `i ~T0 @X0 1 s intLedDesign ]
-[i F15926
--> 0 `i
-]
-[v F15927 `uc ~T0 @X0 -> 5 `i s ]
-[i F15927
-:U ..
-"128
-[; ;user_app.c: 128:     u8 u8Design [5]= {0x21,0x12,0x0c,0x12,0x21};
--> -> 33 `i `uc
--> -> 18 `i `uc
--> -> 12 `i `uc
--> -> 18 `i `uc
--> -> 33 `i `uc
-..
-]
-[v _u8Design `uc ~T0 @X0 -> 5 `i a ]
-[e = _u8Design F15927 ]
-"130
-[; ;user_app.c: 130:     u16Count++;
-[e ++ F15925 -> -> 1 `i `us ]
-"132
-[; ;user_app.c: 132:     if ( u16Count == 500)
-[e $ ! == -> F15925 `ui -> -> 500 `i `ui 2275  ]
-"133
-[; ;user_app.c: 133:     {
-{
-"134
-[; ;user_app.c: 134:        u16Count=0x0000;
-[e = F15925 -> -> 0 `i `us ]
-"135
-[; ;user_app.c: 135:        u8 u8Pattern=LATA;
-[v _u8Pattern `uc ~T0 @X0 1 a ]
-[e = _u8Pattern _LATA ]
-"137
-[; ;user_app.c: 137:        u8Pattern &= 0x80;
-[e =& _u8Pattern -> -> 128 `i `uc ]
-"139
-[; ;user_app.c: 139:        u8Pattern |= u8Design [intLedDesign];
-[e =| _u8Pattern -> *U + &U _u8Design * -> -> F15926 `ui `ux -> -> # *U &U _u8Design `ui `ux `uc ]
-"140
-[; ;user_app.c: 140:        LATA=u8Pattern;
-[e = _LATA _u8Pattern ]
-"141
-[; ;user_app.c: 141:        intLedDesign++;
-[e ++ F15926 -> 1 `i ]
-"143
-[; ;user_app.c: 143:        if(intLedDesign == 5)
-[e $ ! == F15926 -> 5 `i 2276  ]
-"144
-[; ;user_app.c: 144:        {
-{
-"145
-[; ;user_app.c: 145:            intLedDesign=0;
-[e = F15926 -> 0 `i ]
-"146
-[; ;user_app.c: 146:        }
-}
-[e :U 2276 ]
-"148
-[; ;user_app.c: 148:     }
-}
-[e :U 2275 ]
-"149
-[; ;user_app.c: 149: }
-[e :UE 2274 ]
+"242
+[; ;user_app.c: 242: }
+[e :UE 2277 ]
 }
