@@ -49,7 +49,7 @@ void main(void)
   
   /* Exit initialization */
   G_u8SystemFlags &= ~_SYSTEM_INITIALIZING;
-    
+ 
   /* Super loop */  
   while(1)
   {

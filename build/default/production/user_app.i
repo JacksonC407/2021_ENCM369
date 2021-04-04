@@ -27417,11 +27417,13 @@ void UserAppInitialize(void)
 
 
 
+    InterruptTimerXus(16, 1);
 
 }
-# 238 "user_app.c"
+# 239 "user_app.c"
 void UserAppRun(void)
 {
+
 
 
 }

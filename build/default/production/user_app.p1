@@ -3031,19 +3031,22 @@ Version 4.0 HI-TECH Software Intermediate Code
 "218
 [; ;user_app.c: 218:     T1CON = 0x31;
 [e = _T1CON -> -> 49 `i `uc ]
-"223
-[; ;user_app.c: 223: }
+"222
+[; ;user_app.c: 222:     InterruptTimerXus(16, 1);
+[e ( _InterruptTimerXus (2 , -> -> 16 `i `us -> -> 1 `i `a ]
+"224
+[; ;user_app.c: 224: }
 [e :UE 2276 ]
 }
-"238
-[; ;user_app.c: 238: void UserAppRun(void)
-[v _UserAppRun `(v ~T0 @X0 1 ef ]
 "239
-[; ;user_app.c: 239: {
+[; ;user_app.c: 239: void UserAppRun(void)
+[v _UserAppRun `(v ~T0 @X0 1 ef ]
+"240
+[; ;user_app.c: 240: {
 {
 [e :U _UserAppRun ]
 [f ]
-"242
-[; ;user_app.c: 242: }
+"244
+[; ;user_app.c: 244: }
 [e :UE 2277 ]
 }
